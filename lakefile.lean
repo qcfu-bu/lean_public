@@ -16,3 +16,4 @@ lean_lib MyTest {
 }
 
 require autograder from git "https://github.com/robertylewis/lean4-autograder-main"
+require mathlib from git "https://github.com/leanprover-community/mathlib4" @ "v4.22.0"
