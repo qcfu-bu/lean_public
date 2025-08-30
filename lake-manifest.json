@@ -1,0 +1,15 @@
+{"version": "1.1.0",
+ "packagesDir": ".lake/packages",
+ "packages":
+ [{"url": "https://github.com/robertylewis/lean4-autograder-main",
+   "type": "git",
+   "subDir": null,
+   "scope": "",
+   "rev": "fbc7a9b86a35d5462008ca9c0a6e0ef414d58574",
+   "name": "autograder",
+   "manifestFile": "lake-manifest.json",
+   "inputRev": null,
+   "inherited": false,
+   "configFile": "lakefile.lean"}],
+ "name": "mytest",
+ "lakeDir": ".lake"}
