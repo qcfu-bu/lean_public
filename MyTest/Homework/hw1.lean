@@ -41,16 +41,16 @@ constructing a term. By hovering over `_`, you will see the current logical
 context. -/
 
 @[autogradedDef 1] def B : (α → β) → (γ → α) → γ → β :=
-  fun f g x => f (g x)
+  fun f g => f ∘ g
 
 @[autogradedDef 1] def S : (α → β → γ) → (α → β) → α → γ :=
-  fun f g x => f x (g x)
+  sorry
 
 @[autogradedDef 1] def moreNonsense : (γ → (α → β) → α) → γ → β → α :=
-  fun f x y => f x (fun _ => y)
+  sorry
 
 @[autogradedDef 1] def evenMoreNonsense : (α → α → β) → (β → γ) → α → β → γ :=
-  fun f g x y => g (f x x)
+  sorry
 
 /- 1.2 (2 points). Complete the following definition.
 
